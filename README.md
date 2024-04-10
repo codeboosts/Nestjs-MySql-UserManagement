@@ -60,7 +60,7 @@ JWT_SECRET=''
 REDIS_URL=''
 SALT_ROUND=''
 ```
-<a href="https://support.google.com/mail/answer/185833?hl=en" target="_blank">Follow this link to get SMTP credentials</a>
+<a href="https://support.google.com/mail/answer/185833?hl=en" target="_blank">Click to get SMTP credentials</a>
 
 
 ## Author
