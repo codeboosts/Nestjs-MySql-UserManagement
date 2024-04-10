@@ -1,5 +1,5 @@
 
-# NestJS User Management (starter template)
+# User Management (starter template)
 
 
 <a href="https://nestjs.com/" target="_blank"><img src="https://res.cloudinary.com/djvfnekle/image/upload/v1710009756/ph8a6wv0nrrps778fcco.png" width="100"  alt="Nestjs Image" /></a>
