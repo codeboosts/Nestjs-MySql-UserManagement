@@ -1,0 +1,87 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+input ChangeEmailInputDto {
+  NewEmail: String!
+  Password: String!
+}
+
+input ChangePasswordInputDto {
+  NewPassword: String!
+  Password: String!
+}
+
+input ForgotPasswordInputDto {
+  Email: String!
+}
+
+input LoginInputDto {
+  Email: String!
+  Password: String!
+}
+
+type MessageOutput {
+  message: String!
+}
+
+type Mutation {
+  changeEmail(input: ChangeEmailInputDto!): MessageOutput!
+  changePassword(input: ChangePasswordInputDto!): SuccessOutput!
+  deleteUser: SuccessOutput!
+  forgotPassword(input: ForgotPasswordInputDto!): MessageOutput!
+  login(input: LoginInputDto!): TokenOutputDto!
+  register(input: UserRegisterInputDto!): MessageOutput!
+  resetPassword(input: ResetPasswordInputDto!): SuccessOutput!
+  sendOTP(input: SendOTPInputDto!): MessageOutput!
+  updateUser(input: UpdateUserInputDto!): SuccessOutput!
+  verifyEmail(input: VerifyEmailInputDto!): SuccessOutput!
+}
+
+type Query {
+  me: User!
+}
+
+input ResetPasswordInputDto {
+  Email: String!
+  OTP: String!
+  Password: String!
+}
+
+input SendOTPInputDto {
+  Email: String!
+}
+
+type SuccessOutput {
+  isSuccess: Boolean!
+}
+
+type TokenOutputDto {
+  token: String!
+}
+
+input UpdateUserInputDto {
+  Fullname: String!
+}
+
+type User {
+  ID: String!
+  createdAt: Float!
+  deletedAt: Float
+  email: String!
+  emailVerified: Boolean!
+  fullname: String!
+  password: String!
+  updatedAt: Float
+}
+
+input UserRegisterInputDto {
+  Email: String!
+  Fullname: String!
+  Password: String!
+}
+
+input VerifyEmailInputDto {
+  Email: String!
+  OTP: String!
+}
