@@ -12,7 +12,7 @@
 ## Description
 
 [NestJS User Management](https://github.com/nestjs-projects-pro/user-management): Secure & Efficient Starter <br>
-Kickstart your NestJS project with robust user management, built-in email OTP authentication, and adherence to best practices. This comprehensive starter template provides a solid foundation to simplify development and ensure security.
+Kickstart your NestJS project with robust user management, built-in email OTP authentication and fully user management, and adherence to best practices. This comprehensive starter template provides a solid foundation to simplify development and ensure security.
 
 
 ## Requirements
