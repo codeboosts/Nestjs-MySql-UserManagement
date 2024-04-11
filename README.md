@@ -1,5 +1,5 @@
 
-# User Management (starter template)
+# Nest MySql User Management (starter template)
 
 
 <a href="https://nestjs.com/" target="_blank"><img src="https://res.cloudinary.com/djvfnekle/image/upload/v1710009756/ph8a6wv0nrrps778fcco.png" width="100"  alt="Nestjs Image" /></a>
@@ -11,7 +11,7 @@
 
 ## Description
 
-[NestJS User Management](https://github.com/nestjs-projects-pro/user-management): Secure & Efficient Starter <br>
+[NestJS Mysql UserManagement](https://github.com/codeboosts/nestjs-mysql-Usermanagement): Secure & Efficient Starter <br>
 Kickstart your NestJS project with robust user management, built-in email OTP authentication and fully user management, and adherence to best practices. This comprehensive starter template provides a solid foundation to simplify development and ensure security.
 
 
@@ -69,4 +69,4 @@ SALT_ROUND=''
 
 ## License
 
-User management is [MIT licensed](LICENSE).
+Nestjs MySql Usermanagement is [MIT licensed](LICENSE).
