@@ -21,25 +21,25 @@ Before running this project, ensure you have the following requirements:
 - <a href="https://nestjs.com/" target="_blank">Nest.js</a> 9.x.x
 - <a href="https://www.mysql.com/" target="_blank">MySql</a>
 - <a href="https://redis.io/" target="_blank">Redis</a>
-- <a href="https://yarnpkg.com/" target="_blank">Yarn (pkg manager)</a>
+- <a href="https://pnpm.io/" target="_blank">pnpm (pkg manager)</a>
 
 
 
 ## Installation
 You can install dependencies using Yarn, which is preferred for better performance and reliability:
 ```bash
-yarn install
+pnpm install
 ```
 
 
 ## Running the app
 ```bash
 # development
-$ yarn start
+$ pnpm run start
 # watch mode
-$ yarn start:dev
+$ pnpm run start:dev
 # production mode
-$ yarn start:prod
+$ pnpm run start:prod
 ```
 
 
@@ -69,4 +69,4 @@ SALT_ROUND=''
 
 ## License
 
-Quillpad is [MIT licensed](LICENSE).
+User management is [MIT licensed](LICENSE).
